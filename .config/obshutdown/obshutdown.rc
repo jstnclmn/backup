@@ -1,0 +1,43 @@
+#
+# Openbox shutdown dialog
+# This is example obshutdown rc file
+# Copy this file to ~/.obshutdown.rc and customise
+#
+
+[general]
+version =        0.1-rc1
+verbose =        false
+default_action = shutdown
+composite =      true
+theme =          foom
+buttons =        lock logout shutdown restart suspend
+
+[actions]
+logout =         pkill -KILL -u orthos
+shutdown =       systemctl poweroff
+restart =        systemctl reboot
+lock = 		     slimlock
+switch =
+suspend =        systemctl suspend
+hibernate =      systemctl hibernate
+custom =
+
+[shortcuts]
+logout =         l
+shutdown =       s
+restart =        r
+lock =
+switch =
+suspend =        u
+hibernate =      h
+custom =
+
+[labels]
+cancel =         CANCEL
+logout =         LOGOUT
+restart =        RESTART
+shutdown =       SHUTDOWN
+lock =           LOCK
+switch =         SWITCH USER
+suspend =        SUSPEND
+hibernate =      HIBERNATE

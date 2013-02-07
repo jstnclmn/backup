@@ -1,0 +1,6 @@
+username = killmonger
+password = ffde3a9bb34c788dbc1a477b9a8aa64e
+host = localhost
+port = 6600
+runas = orthos
+debug = 1

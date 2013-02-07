@@ -1,0 +1,1 @@
+/home/orthos/.zprezto/runcoms/zshrc

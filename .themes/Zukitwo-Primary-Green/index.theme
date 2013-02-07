@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Zukitwo-Primary-Green
+Comment=A green varient of Zukitwo-Primary-Colors
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Zukitwo-Primary-Green
+MetacityTheme=Zukitwo-Primary-Colors
+IconTheme=Faenza-Dark

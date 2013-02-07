@@ -1,0 +1,37 @@
+# Do not show startup message
+startup_message off
+
+# Use utf8
+defutf8 on
+
+# COLORS! and some usefull terminfo
+term screen-256color
+terminfo rxvt-unicode 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+#term title
+defhstatus "^Et"
+
+# Default shell
+shell zsh
+
+# Disable screen flow-control
+defflow off
+
+# Enable window monitoring
+monitor on
+
+# Statusbar
+caption splitonly
+caption string '%{= m}Load Avg:%{= G} %l %= %{= w}%-w%{+b r}%n:%t%{-b r}%{w}%+w %= %{b}%D %d/%m/%Y %{Y}%c'
+#hardstatus alwayslastline
+#hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %m-%d %{W} %c %{g}]'
+
+# To clear the screen after closing some programs
+altscreen on
+
+# keybinds
+bindkey -k k; quit
+
+# Windows opening by default
+screen  1 rtorrent
+screen  2 irssi
+#screen  3 ncmpcpp

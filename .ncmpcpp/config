@@ -1,0 +1,142 @@
+##### song format #####
+##
+## for song format you can use:
+##
+## %l - length
+## %f - filename
+## %D - directory
+## %a - artist
+## %t - title
+## %b - album
+## %y - year
+## %n - track number (01/12 -> 01)
+## %N - full track info (01/12 -> 01/12)
+## %g - genre
+## %c - composer
+## %p - performer
+## %d - disc
+## %C - comment
+## %R - begin right alignment
+##
+## you can also put them in { } and then it will be displayed
+## only if all requested values are available and/or define alternate
+## value with { }|{ } eg. {%a - %t}|{%f}
+##
+## Note: Format that is similar to "%a - %t" (i.e. without any additional
+## braces) is equal to "{%a - %t}", so if one of the tags is missing,
+## you'll get nothing.
+##
+## text can also have different color than the main window has,
+## eg. if you want length to be green, write $3%l$9
+##
+## available values:
+##
+## - 0 - default window color (discards all other colors)
+## - 1 - black
+## - 2 - red
+## - 3 - green
+## - 4 - yellow
+## - 5 - blue
+## - 6 - magenta
+## - 7 - cyan
+## - 8 - white
+## - 9 - end of current color
+##
+## Note: colors can be nested.
+##
+## ncmpcpp config
+
+# mpd
+mpd_music_dir = "~/Music"
+mpd_connection_timeout = "5"
+system_encoding = "utf8"
+
+# playlist
+song_columns_list_format = "(40)[red]{t|f} (30)[magenta]{b} (25)[blue]{ar} (7f)[green]{lr}"
+song_list_format = "{$3[%l]$9} {$5%a$9} - {$2%t$9} - {$6%f$9}"
+now_playing_prefix = "$b$2>$6>$5>$3> "
+now_playing_suffix = "   $3<$5<$6<$2<$/b$9"
+playlist_display_mode = "columns" (classic/columns)
+autocenter_mode = "yes"
+centered_cursor = "yes"
+playlist_separate_albums = "yes"
+
+# bars
+song_status_format = "$5%a $b$1•$/b $2%t $b$1•$/b $6%b {(Disc %d) }$b$1•$/b $3%y$1"
+#progressbar_look = "─╼·"
+progressbar_look = "▄▄ "
+
+# browser
+browser_playlist_prefix = "$2playlist »$9 "
+browser_display_mode = "columns" (classic/columns)
+
+# media library
+song_library_format = "{%n - }{%t}|{%f}"
+media_library_album_format = "{(%y) }%b"
+
+# user interface
+user_interface = "alternative" (classic/alternative)
+alternative_header_first_line_format = "$b$1$aqqu$/a$9 $3{%t}|{%f}$9 $1$atqq$/a$9$/b"
+alternative_header_second_line_format = "$b{{$5%a$9}{ $1-$9 $2%b$9}$/b{ $b$1($9$/b$3%y$9$b$1)$9$/b}}|{%D}"
+
+# others
+selected_item_prefix = "$b$2"
+selected_item_suffix = "$9$/b"
+song_window_title_format = "{%a - }{%t}|{%f}"
+search_engine_display_mode = "columns" (classic/columns)
+follow_now_playing_lyrics = "yes"
+
+# colors
+colors_enabled = "yes"
+color1 = "cyan"
+color2 = "magenta"
+empty_tag_marker = "--"
+empty_tag_color = "magenta"
+header_window_color = "magenta"
+volume_color = "magenta"
+state_flags_color = "black"
+state_line_color = "black"
+main_window_color = "cyan"
+main_window_highlight_color = "green"
+progressbar_color = "black"
+alternative_ui_separator_color = "black"
+active_column_color = "red"
+statusbar_color = "red"
+window_border_color = "black"
+active_window_border = "red"
+
+# various settings
+incremental_seeking = "yes"
+seek_time = "1"
+default_place_to_search_in = "database" (database/playlist)
+media_library_left_column = "a" (possible values: a,y,g,c,p, legend above)
+default_find_mode = "wrapped" (wrapped/normal)
+default_space_mode = "add" (add/select)
+default_tag_editor_left_col = "dirs" (albums/dirs)
+default_tag_editor_pattern = "%n - %t"
+header_visibility = "no"
+statusbar_visibility = "yes"
+titles_visibility = "no"
+fancy_scrolling = "no"
+ncmpc_like_songs_adding = "no" (enabled - add/remove, disabled - always add)
+enable_window_title = "yes"
+display_bitrate = "yes"
+mpd_communication_mode = "polling"
+
+#Visualizer
+visualizer_in_stereo = "no"
+visualizer_fifo_path = "/tmp/mpd.fifo"
+visualizer_output_name = "fifo"
+visualizer_sync_interval = "30"
+visualizer_type = "wave" (spectrum/wave)
+#visualizer_type = "spectrum" (spectrum/wave)
+#visualizer_look = "♦┇"
+#visualizer_look = "●▋"
+visualizer_look = "●┇"
+
+display_screens_numbers_on_start = "no"
+message_delay_time = "3
+
+# Screen
+locked_screen_width_part = "40"
+ask_for_locked_screen_width_part = "no""

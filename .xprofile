@@ -1,0 +1,34 @@
+## GLOBALS ##
+export DE="xfce"
+export MANPATH="$MANPATH:~/.local/share/man"
+export PATH=$HOME/.local/bin:$HOME/.local/bin/pyroscope:$PATH
+export BROWSER="firefox"
+export EDITOR="gvim"
+
+## IME ##
+# IBUS #
+#export GTK_IM_MODULE=ibus
+#export XMODIFIERS=@im=ibus
+#export QT_IM_MODULE=ibus
+#ibus-daemon --xim -d
+
+# SCIM #
+export XMODIFIERS=@im=SCIM
+export GTK_IM_MODULE="scim"
+export QT_IM_MODULE="scim"
+scim -d
+
+## MONITOR ##
+xset s 1500 1500
+
+# Make wine 32bit only
+export WINEARCH=win32
+
+## Disable touchpad ##
+#/usr/bin/synclient TouchpadOff=1
+
+# autostart MPD
+run_once mpd
+
+# fix cursor in awesome
+#xsetroot -cursor_name left_ptr

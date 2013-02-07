@@ -1,0 +1,17 @@
+## GLOBALS ##
+export DE="xfce"
+export PATH=$HOME/.local/bin:$HOME/.local/bin/pyroscope:$HOME/.gem/ruby/1.9.1/bin:$PATH
+export BROWSER="firefox"
+export EDITOR="vim"
+export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
+
+## IME ##
+export XMODIFIERS="@im=SCIM"
+export GTK_IM_MODULE="scim-bridge"
+export QT_IM_MODULE="scim-bridge"
+
+## MONITOR ##
+xset s 1500 1500
+
+# Make wine 32bit only
+export WINEARCH=win32

@@ -1,0 +1,21 @@
+#!/bin/bash
+#
+# mpdnotify config - any valid bash is allowed, you
+# only need to define handle_event() for the deamon
+# to run properly
+#
+# $mydir exists, and it's value is /home/orthos/.config/mpdnotify
+#
+###
+myPID="/tmp/mpdnpid"
+###
+#
+# the actual handle_event() definition
+#
+# this is the only requirement for a valid config
+#
+###
+
+handle_event() {
+    mpd_notify &
+}

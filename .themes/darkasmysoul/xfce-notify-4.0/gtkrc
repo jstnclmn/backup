@@ -1,0 +1,24 @@
+style "smoke-window"
+{
+    bg[NORMAL] = "#1B1B1B" 
+    XfceNotifyWindow::border-color = "#ecedee"
+    XfceNotifyWindow::border-radius = 0.0
+    XfceNotifyWindow::border-width = 0.0
+}
+class "XfceNotifyWindow" style "smoke-window"
+
+style "smoke-button"
+{
+    bg[NORMAL] = "#303030"
+    bg[PRELIGHT] = "#303030"
+    fg[NORMAL] = "#ecedee"
+    fg[PRELIGHT] = "#ecedee"
+}
+widget_class "XfceNotifyWindow.*.GtkButton*" style "smoke-button"
+
+style "smoke-text"
+{
+    fg[NORMAL] = "#ecedee"
+    GtkWidget::link-color = "#606060"
+}
+widget_class "XfceNotifyWindow.*.<GtkLabel>" style "smoke-text"

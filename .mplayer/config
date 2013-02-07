@@ -1,0 +1,10 @@
+[default]
+vo = xv,gl3,
+ao = alsa
+framedrop = 1
+monitoraspect = 16:9
+quiet = 1
+sub-fuzziness = 1
+lavdopts = fast:skiploopfilter=default:skipframe=default
+geometry=50%:50%
+#xy=.75

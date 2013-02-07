@@ -1,0 +1,119 @@
+max_peers = 100
+max_peers_seed = 50
+max_uploads = 8
+upload_rate = 250
+
+# Port range to use for listening.
+port_range = 56375-56375
+
+# Start opening ports at a random position within the port range.
+port_random = no
+
+# Encryption options, set to none (default) or any combination of the following:
+# allow_incoming, try_outgoing, require, require_RC4, enable_retry, prefer_plaintext
+#
+# The example value allows incoming encrypted connections, starts unencrypted
+# outgoing connections but retries with encryption if they fail, preferring
+# plaintext to RC4 encryption after the encrypted handshake
+encryption = require
+
+# Disable SSL check
+network.http.ssl_verify_peer.set = 0
+
+# directory for ssl certificates on self signed trackers
+#http_capath = /etc/ssl/certs
+encoding_list = utf8
+
+# Enable DHT support for trackerless torrents or when all trackers are down.
+# May be set to "disable" (completely disable DHT), "off" (do not start DHT),
+# "auto" (start and stop DHT as needed), or "on" (start DHT immediately).
+# The default is "off". For DHT to work, a session directory must be defined.
+dht = off
+
+# Enable peer exchange (for torrents not marked private)
+peer_exchange = yes
+
+# Set whetever the client should try to connect to UDP trackers.
+use_udp_trackers = yes
+
+# Default directory to save the downloaded torrents.
+directory = ~/Downloads
+
+# Default session directory.
+session = ~/Downloads/torrents/active
+
+# Display only active torrents properly
+schedule = filter_active,30,30,"view_filter = active,\"or={d.get_up_rate=,d.get_down_rate=}\""
+
+
+# Watch directories for torrents
+schedule = airing_anime,10,10,"load_start=~/Downloads/torrents/airing/*.torrent,d.set_directory=~/Videos/_Airing/"
+schedule = backlog,10,10,"load_start=~/Downloads/torrents/backlog/*.torrent,d.set_directory=~/Videos/_Backlog/"
+schedule = porn,10,10,"load_start=~/Downloads/torrents/exh/*.torrent,d.set_directory=~/Videos/Bonus_Torrents/l/o/l/p/o/r/n/"
+schedule = music,10,10,"load_start=~/Downloads/torrents/music/*.torrent,d.set_directory=~/Music/"
+schedule = other,10,10,"load_start=~/Downloads/torrents/*.torrent,d.set_directory=~/Downloads/"
+
+# On completion, move the torrent to the directory from custom1.
+# system.method.set_key =event.download.finished,move_complete,"d.set_directory=$d.get_custom1= ;execute=mv,-u,$d.get_base_path=,$d.get_custom1="
+
+# send notification on finished torrent.
+system.method.set_key = event.download.finished,notify_me,"execute=~/.local/bin/rt_notify,$d.get_name="
+
+# Make completion time work
+system.method.set_key = event.download.finished,time_stamp,"d.set_custom=tm_completed,$cat=$system.time= ;d.save_session="
+
+# PyroScope SETTINGS
+# directories
+scgi_local = ~/Downloads/torrents/.scgi_local
+log.execute = ~/.pyroscope/execute.log
+
+# SCHEDULE: Make SCGI socket group-writable
+schedule = scgi_permission,0,0,"execute_nothrow=chmod,g+w,~/Downloads/torrents/.scgi_local"
+
+# Set "pyro.extended" to 1 to activate rTorrent-PS features!
+# LEAVE THIS AT 0 IF YOU RUN A VANILLA rTorrent!
+system.method.insert = pyro.extended, value|const, 1
+
+# Set "pyro.bin_dir" to the "bin" directory where you installed the pyrocore tools!
+# Make sure you end it with a "/"; if this is left empty, then the shell's path is searched.
+system.method.insert = pyro.bin_dir, string|const, ~/.local/bin/pyroscope/
+
+# Remove the ".default" if you want to change something (else your changes get over-written on update).
+system.method.insert = pyro.rc_dialect, string|const|simple, "execute_capture=bash,-c,\"test $1 = 0.8.6 && echo -n 0.8.6 || echo -n 0.8.9\",dialect,$system.client_version="
+system.method.insert = pyro.rtorrent_rc, string|const|private, "$cat=~/.pyroscope/rtorrent-,\"$pyro.rc_dialect=\",.rc"
+import = $pyro.rtorrent_rc=
+
+# TORQUE: Daemon watchdog schedule
+# Must be activated by touching the "~/.pyroscope/run/pyrotorque" file!
+# Set the second argument to "-v" or "-q" to change log verbosity.
+#schedule = pyro_watchdog,30,300,"pyro.watchdog=~/.pyroscope,"
+
+# UI/VIEW: Show active and incomplete torrents (in view #0) and update every 20 seconds
+#   Items are grouped into complete, incomplete, and queued, in that order (rT-PS only).
+#   Within each group, they're sorted by download and then upload speed.
+branch=pyro.extended=,false=,"view_sort_current = active,greater=d.get_up_rate="
+branch=pyro.extended=,"view_sort_current = active,\"compare=----,d.is_open=,d.get_complete=,d.get_down_rate=,d.get_up_rate=\""
+schedule = filter_active,12,20,"view_filter = active,\"or={d.get_up_rate=,d.get_down_rate=,not=$d.get_complete=}\" ;view_sort=active"
+
+# UI　Colors
+ui.color.alarm = "bold white on red"
+ui.color.complete = "41"
+ui.color.even = "on 234"
+ui.color.focus = "reverse"
+ui.color.footer = "bright cyan on 20"
+ui.color.incomplete = "yellow"
+ui.color.info = "white"
+ui.color.label = "gray"
+ui.color.leeching = "bold bright yellow"
+ui.color.odd = "on 232"
+ui.color.progress0 = "196"
+ui.color.progress100 = "34"
+ui.color.progress120 = "bold bright 47"
+ui.color.progress20 = "202"
+ui.color.progress40 = "213"
+ui.color.progress60 = "214"
+ui.color.progress80 = "226"
+ui.color.queued = "magenta"
+ui.color.seeding = "bold bright 46"
+ui.color.stopped = "33"
+ui.color.title = "bold bright white on blue"

@@ -1,0 +1,32 @@
+## DAEMONS ##
+#xscreensaver -no-splash &
+#thunar --daemon &
+cmptn &
+
+## PANEL ##
+#xfce4-panel &
+tint2 &
+
+## WALLPAPER ##
+rWall &
+
+## UTILITIES ##
+#(sleep 3 && /usr/bin/nm-applet --sm-disable) &
+(sleep 3 && wicd-client --tray) &
+(sleep 3 && volumeicon) &
+#(sleep 3 && xfce4-power-manager) &
+
+## PROGRAMS ##
+(sleep 10 && urxvt -geometry 110x35 -e screen -Rd) &
+(sleep 10 && thunderbird ) &
+
+## AUDIO-SCROBBLER ##
+#(sleep 40 && mpdas) &
+
+## MPD NOTIFICATIONS ##
+[ -f ~/.config/mpdnotify/pid ] && rm ~/.config/mpdnotify/pid &
+(sleep 60 && mpdnotify start) &
+
+## POLICYKIT ##
+#/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+#lxpolkit &

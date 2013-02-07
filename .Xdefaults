@@ -1,0 +1,87 @@
+! Fonts ----------------------------------------------------------------------
+Xft.dpi:    		96
+Xft.antialias:		true
+Xft.hinting:		true
+Xft.rgba:	    	rgb
+Xft.autohint:		false
+Xft.hintstyle:		hintfull
+Xft.lcdfilter:		lcddefault
+
+! URxvt -----------------------------------------------------------------------
+URxvt*font:             xft:Tewi:pixelsize=11:antialias=false,\
+                        [codeset=JISX0208]xft:Kochi Gothic,\
+                        [codeset=KSC5601]xft:Baekmuk Gulim,\
+                        xft:WenQuanYi Bitmap Song,\
+                        xft:GohuFont:antialias=false,\
+                        xft:Liberation Mono:antialias=false,\
+                        xft:Arial Unicode MS:antialias=false,\
+                        xft:DejaVu Sans Mono:antialias=false, \
+			            xft:Inconsolata:antialias=false
+URxvt*boldFont:         xft:Tewi:pixelsize=11:antialias=false,\
+                        [codeset=JISX0208]xft:Kochi Gothic,\
+                        [codeset=KSC5601]xft:Baekmuk Gulim,\
+                        xft:WenQuanYi Bitmap Song,\
+                        xft:GohuFont:antialias=false,\
+                        xft:Liberation Mono:antialias=false,\
+                        xft:Arial Unicode MS:antialias=false,\
+                        xft:DejaVu Sans Mono:antialias=false. \
+			            xft:Inconsolata:antialias=false
+URxvt*imFont:           -*-Kochi Gothic-medium-r-normal--11-140-*-*-*-*-*-*
+
+!URxvt*skipBuiltinGlyphs  : false
+
+URxvt.fading:           false
+URxvt.shading:          false
+URxvt.scrollBar:        false
+URxvt.urgentOnBell:     true
+URxvt.geometry:         93x27
+URxvt.depth:            24
+URxvt.saveLines:        10000
+URxvt*termName:         rxvt-unicode
+
+!URxvt*preeditType:      Root
+!URxvt*inputMethod:      SCIM
+URxvt.inputMethod:      ibus
+URxvt.preeditType:      OverTheSpot
+URxvt*background:       #1b1b1b
+URxvt*foreground:       #cccaca
+URxvt*cursorColor:      #ffffff
+
+!Black
+URxvt*color0:           #222222
+URxvt*color8:           #5b595a
+!Red
+URxvt*color1:           #8f5b5b
+URxvt*color9:           #c48181
+!Green
+URxvt*color2:           #7c915a
+URxvt*color10:          #91a76e
+!Yellow
+URxvt*color3:           #9e8762
+URxvt*color11:          #b19c7a
+!Blue
+URxvt*color4:           #424e60
+URxvt*color12:          #73839b
+!Magenta
+URxvt*color5:           #9d4e6e
+URxvt*color13:          #b67f9c
+!Cyan
+URxvt*color6:           #457f7b
+URxvt*color14:          #639b97
+!White
+URxvt*color7:           #a49195
+URxvt*color15:          #c4b1b5
+
+URxvt.colorIT:          #87af5f
+URxvt.colorBD:          #d7d7d7
+URxvt.colorUL:          #c48181
+
+URxvt.perl-ext-common:  default,matcher
+URxvt.url-launcher:     /usr/bin/firefox
+URxvt.matcher.button:   1
+
+URxvt.iconFile:     	/usr/share/icons/Faenza/apps/32/terminal.png
+
+URxvt*keysym.Home:      [1~
+URxvt*keysym.End:       [4~
+

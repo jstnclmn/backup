@@ -1,0 +1,320 @@
+sw_volume: 10
+audio_device_state:1:ALSA-Speakers
+audio_device_state:1:fifo
+state: play
+current: 245
+time: 81
+random: 1
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: nan
+playlist_begin
+0:touhou/(C83) (同人音楽) [ShibayanRecords] マジコカタストロフィ (mp3 320)/雲がくれにし夜半の月かな.mp3
+1:touhou/(C83) (同人音楽) [ShibayanRecords] マジコカタストロフィ (mp3 320)/Fall In The Dark.mp3
+2:touhou/(C83) (同人音楽) [ShibayanRecords] マジコカタストロフィ (mp3 320)/Curse Mind.mp3
+3:touhou/(C83) (同人音楽) [ShibayanRecords] マジコカタストロフィ (mp3 320)/Clockup Flowers.mp3
+4:touhou/(C83) (同人音楽) [ShibayanRecords] マジコカタストロフィ (mp3 320)/Myoisia.mp3
+5:touhou/(C83) (同人音楽) [ShibayanRecords] マジコカタストロフィ (mp3 320)/雨はりらりら.mp3
+6:touhou/(C83) (同人音楽) [ShibayanRecords] マジコカタストロフィ (mp3 320)/いつか見たもの.mp3
+7:touhou/(C83) (同人音楽) [ShibayanRecords] マジコカタストロフィ (mp3 320)/・－・・ －－－ ・・・－ ・.mp3
+8:touhou/(C83) ALiCE'S EMOTiON — Evolution RED (東方) [AECD-036] (mp3 320+scans)/追憶サマーナイト (ELEMENTAS Remix).mp3
+9:touhou/(C83) ALiCE'S EMOTiON — Evolution RED (東方) [AECD-036] (mp3 320+scans)/I will never forget you (Nhato Remix).mp3
+10:touhou/(C83) ALiCE'S EMOTiON — Evolution RED (東方) [AECD-036] (mp3 320+scans)/Singing in the rain (源屋 Remix).mp3
+11:touhou/(C83) ALiCE'S EMOTiON — Evolution RED (東方) [AECD-036] (mp3 320+scans)/望まれぬ夜明け (fu_mou Remix).mp3
+12:touhou/(C83) ALiCE'S EMOTiON — Evolution RED (東方) [AECD-036] (mp3 320+scans)/blooming (CYTOKINE Remix).mp3
+13:touhou/(C83) ALiCE'S EMOTiON — Evolution RED (東方) [AECD-036] (mp3 320+scans)/White Pieces (DJ Genki Remix).mp3
+14:touhou/(C83) ALiCE'S EMOTiON — Evolution RED (東方) [AECD-036] (mp3 320+scans)/Break the Night (aran Remix).mp3
+15:touhou/(C83) ALiCE'S EMOTiON — Evolution RED (東方) [AECD-036] (mp3 320+scans)/CROSS WORLD (Ryunosuke Kudo Remix).mp3
+16:touhou/(C83) ALiCE'S EMOTiON — Evolution RED (東方) [AECD-036] (mp3 320+scans)/Hungry Girl (RoughSketch Remix).mp3
+17:touhou/(C83) ALiCE'S EMOTiON — Evolution RED (東方) [AECD-036] (mp3 320+scans)/Mami Mami Zone (t+pazolite Remix).mp3
+18:touhou/(C83) 埼玉最終兵器&Aether — Frenzy Frenzy (東方) [SHAT-0001] (V0)/01. 埼玉最終兵器 — 無何有の郷.mp3
+19:touhou/(C83) 埼玉最終兵器&Aether — Frenzy Frenzy (東方) [SHAT-0001] (V0)/02. 埼玉最終兵器 — クリスタライズシルバー.mp3
+20:touhou/(C83) 埼玉最終兵器&Aether — Frenzy Frenzy (東方) [SHAT-0001] (V0)/03. Eru — Demystify Feast.mp3
+21:touhou/(C83) 埼玉最終兵器&Aether — Frenzy Frenzy (東方) [SHAT-0001] (V0)/04. Eru — ネクロファンタジア [Ver.2012].mp3
+22:touhou/(C83) 埼玉最終兵器&Aether — Frenzy Frenzy (東方) [SHAT-0001] (V0)/05. 埼玉最終兵器 — 亡き王女の為のセプテット [Ver.2012].mp3
+23:touhou/(C83) 埼玉最終兵器&Aether — Frenzy Frenzy (東方) [SHAT-0001] (V0)/06. 埼玉最終兵器 — 上海紅茶館.mp3
+24:touhou/(C83) 埼玉最終兵器&Aether — Frenzy Frenzy (東方) [SHAT-0001] (V0)/07. Eru — フォールオブフォール.mp3
+25:touhou/(C83) 埼玉最終兵器&Aether — Frenzy Frenzy (東方) [SHAT-0001] (V0)/08. Eru — 平安のエイリアン.mp3
+26:touhou/(C83) 埼玉最終兵器&Aether — Frenzy Frenzy (東方) [SHAT-0001] (V0)/09. Eru — 幽霊楽団 [Ver.2012].mp3
+27:touhou/(C83) 埼玉最終兵器&Aether — Frenzy Frenzy (東方) [SHAT-0001] (V0)/10. Eru — ネイティブフェイス.mp3
+28:touhou/(C83) 埼玉最終兵器&Aether — Frenzy Frenzy (東方) [SHAT-0001] (V0)/11. 埼玉最終兵器 — OVERTURE.mp3
+29:touhou/(C83) 埼玉最終兵器&Aether — Frenzy Frenzy (東方) [SHAT-0001] (V0)/12. 埼玉最終兵器 — 幽雅に咲かせ、墨染の桜.mp3
+30:touhou/(C83) 埼玉最終兵器&Aether — Frenzy Frenzy (東方) [SHAT-0001] (V0)/13. 埼玉最終兵器 — くりすたらいず紅茶祭り らいぶいんじゃぱん.mp3
+31:touhou/(C83)(同人音楽)(東方)[RD-Sounds] 誘 (izanai)/01.Calling.mp3
+32:touhou/(C83)(同人音楽)(東方)[RD-Sounds] 誘 (izanai)/02.全ては、その笑顔のために.mp3
+33:touhou/(C83)(同人音楽)(東方)[RD-Sounds] 誘 (izanai)/03.黄昏逃避行.mp3
+34:touhou/(C83)(同人音楽)(東方)[RD-Sounds] 誘 (izanai)/04.今やファインダァは彼方から.mp3
+35:touhou/(C83)(同人音楽)(東方)[RD-Sounds] 誘 (izanai)/05.神様たちの事情.mp3
+36:touhou/(C83)(同人音楽)(東方)[RD-Sounds] 誘 (izanai)/06.「アリス」とぼくの理想的世界選択論.mp3
+37:touhou/(C83)(同人音楽)(東方)[RD-Sounds] 誘 (izanai)/07.何もかもが、幻想.mp3
+38:touhou/(C83)(同人音楽)(東方)[RD-Sounds] 辿 (tadori)/01.とおいよびごえ.mp3
+39:touhou/(C83)(同人音楽)(東方)[RD-Sounds] 辿 (tadori)/02.Grate Escapers.mp3
+40:touhou/(C83)(同人音楽)(東方)[RD-Sounds] 辿 (tadori)/03.left behind.mp3
+41:touhou/(C83)(同人音楽)(東方)[RD-Sounds] 辿 (tadori)/04.name for the love.mp3
+42:touhou/(C83)(同人音楽)(東方)[RD-Sounds] 辿 (tadori)/05.At least one word.mp3
+43:touhou/(C83)(同人音楽)(東方)[RD-Sounds] 辿 (tadori)/06.she's purity.mp3
+44:touhou/(C83)(同人音楽)(東方)[RD-Sounds] 辿 (tadori)/07.The beautiful world.mp3
+45:touhou/(C83)(同人音楽)(東方)[豚乙女]ひかり/01.生罪永女.mp3
+46:touhou/(C83)(同人音楽)(東方)[豚乙女]ひかり/02.アノコの心.mp3
+47:touhou/(C83)(同人音楽)(東方)[豚乙女]ひかり/03.いっしょがいいの.mp3
+48:touhou/(C83)(同人音楽)(東方)[豚乙女]ひかり/04.月を焦して.mp3
+49:touhou/(C83)(同人音楽)(東方)[豚乙女]ひかり/05.ずっとぜんぶ.mp3
+50:touhou/(C83)(同人音楽)(東方)[豚乙女]ひかり/06.君の大事、私の好き.mp3
+51:touhou/(C83)(同人音楽)(東方)[豚乙女]ひかり/07.歪~wai~.mp3
+52:touhou/(C83)(同人音楽)(東方)[豚乙女]ひかり/08.NAIMAZE.mp3
+53:touhou/Alice's Emotion - Overdrive/01. 野宮あゆみ — Start the Game Again.flac
+54:touhou/Alice's Emotion - Overdrive/02. ななひら — Inori.flac
+55:touhou/Alice's Emotion - Overdrive/03. REDALiCE — Spacetime.flac
+56:touhou/Alice's Emotion - Overdrive/04. 野宮あゆみ — Fortune Heart.flac
+57:touhou/Alice's Emotion - Overdrive/05. 吉河順央 — Cryout 4u.flac
+58:touhou/Alice's Emotion - Overdrive/06. 野宮あゆみ — Guilty Moon.flac
+59:touhou/Alice's Emotion - Overdrive/07. motoko — Refrain.flac
+60:touhou/Alice's Emotion - Overdrive/08. a☆ru — キズアト.flac
+61:touhou/Alice's Emotion - Overdrive/09. リズナ — Tayutai-Relaxation.flac
+62:touhou/Alice's Emotion - Overdrive/10. 坂上なち — Sweet Love.flac
+63:touhou/Demetori - tendre est la mort/01. Demetori — Introduction.mp3
+64:touhou/Demetori - tendre est la mort/02. Demetori — 古きユアンシェン.mp3
+65:touhou/Demetori - tendre est la mort/03. Demetori — ハートフェルトファンシー.mp3
+66:touhou/Diverse System--AD Drumn Bass/[C83] Diverse System--AD Drum'n Bass Disc One MP3 v0/01 Industrial Nation.mp3
+67:touhou/Diverse System--AD Drumn Bass/[C83] Diverse System--AD Drum'n Bass Disc One MP3 v0/02 ism.mp3
+68:touhou/Diverse System--AD Drumn Bass/[C83] Diverse System--AD Drum'n Bass Disc One MP3 v0/03 Illegal Vision.mp3
+69:touhou/Diverse System--AD Drumn Bass/[C83] Diverse System--AD Drum'n Bass Disc One MP3 v0/04 PID.mp3
+70:touhou/Diverse System--AD Drumn Bass/[C83] Diverse System--AD Drum'n Bass Disc One MP3 v0/05 Vector Sigma.mp3
+71:touhou/Diverse System--AD Drumn Bass/[C83] Diverse System--AD Drum'n Bass Disc One MP3 v0/06 Neuronecia.mp3
+72:touhou/Diverse System--AD Drumn Bass/[C83] Diverse System--AD Drum'n Bass Disc One MP3 v0/07 My electro.mp3
+73:touhou/Diverse System--AD Drumn Bass/[C83] Diverse System--AD Drum'n Bass Disc One MP3 v0/08 Unstable.mp3
+74:touhou/Diverse System--AD Drumn Bass/[C83] Diverse System--AD Drum'n Bass Disc One MP3 v0/09 Leave The Love Behind.mp3
+75:touhou/Diverse System--AD Drumn Bass/[C83] Diverse System--AD Drum'n Bass Disc One MP3 v0/10 Disbelief.mp3
+76:touhou/Diverse System--AD Drumn Bass/[C83] Diverse System--AD Drum'n Bass Disc One MP3 v0/11 Descent Dive.mp3
+77:touhou/Diverse System--AD Drumn Bass/[C83] Diverse System--AD Drum'n Bass Disc One MP3 v0/12 Step Ahead.mp3
+78:touhou/Diverse System--AD Drumn Bass/[C83] Diverse System--AD Drum'n Bass Disc One MP3 v0/13 Agiel.mp3
+79:touhou/Diverse System--AD Drumn Bass/[C83] Diverse System--AD Drum'n Bass Disc Two MP3 v0/01 First Call.mp3
+80:touhou/Diverse System--AD Drumn Bass/[C83] Diverse System--AD Drum'n Bass Disc Two MP3 v0/02 Mermaid (Original Mix).mp3
+81:touhou/Diverse System--AD Drumn Bass/[C83] Diverse System--AD Drum'n Bass Disc Two MP3 v0/03 tomato explosion.mp3
+82:touhou/Diverse System--AD Drumn Bass/[C83] Diverse System--AD Drum'n Bass Disc Two MP3 v0/04 BAD IMPULSE.mp3
+83:touhou/Diverse System--AD Drumn Bass/[C83] Diverse System--AD Drum'n Bass Disc Two MP3 v0/05 streaming.mp3
+84:touhou/Diverse System--AD Drumn Bass/[C83] Diverse System--AD Drum'n Bass Disc Two MP3 v0/06 Block.mp3
+85:touhou/Diverse System--AD Drumn Bass/[C83] Diverse System--AD Drum'n Bass Disc Two MP3 v0/07 Drop Of Night.mp3
+86:touhou/Diverse System--AD Drumn Bass/[C83] Diverse System--AD Drum'n Bass Disc Two MP3 v0/08 Testify.mp3
+87:touhou/Diverse System--AD Drumn Bass/[C83] Diverse System--AD Drum'n Bass Disc Two MP3 v0/09 Ocean Echo.mp3
+88:touhou/Diverse System--AD Drumn Bass/[C83] Diverse System--AD Drum'n Bass Disc Two MP3 v0/10 wild card.mp3
+89:touhou/Diverse System--AD Drumn Bass/[C83] Diverse System--AD Drum'n Bass Disc Two MP3 v0/11 恋文.mp3
+90:touhou/EastNewSound - Auxilary Brightness/01 絶炎～Burning Beat～.mp3
+91:touhou/EastNewSound - Auxilary Brightness/02 Replay & Review.mp3
+92:touhou/EastNewSound - Auxilary Brightness/03 contrivance.mp3
+93:touhou/EastNewSound - Auxilary Brightness/04 有色透明・無色透明.mp3
+94:touhou/EastNewSound - Auxilary Brightness/05 Fly away.mp3
+95:touhou/EastNewSound - Auxilary Brightness/06 詠奏妖華～明鏡止水～.mp3
+96:touhou/EastNewSound - Auxilary Brightness/07 MELTY MELTY.mp3
+97:touhou/EastNewSound - Auxilary Brightness/08 Desire.mp3
+98:touhou/EastNewSound - Auxilary Brightness/09 stillness　～死が二人を分かつまで～.mp3
+99:touhou/EastNewSound - Auxilary Brightness/10 理　～Just dreamy～.mp3
+100:touhou/EastNewSound - Auxilary Brightness/11 Beat-Spiral-Beat.mp3
+101:touhou/EastNewSound - Auxilary Brightness/12 蒲公英.mp3
+102:touhou/Parallelism・β /01. Parallelism・β.mp3
+103:touhou/Parallelism・β /02. ロスト.mp3
+104:touhou/Parallelism・β /03. ジャパメタ最高！～正統な継承者～.mp3
+105:touhou/Parallelism・β /04. Change of Generation.mp3
+106:touhou/Parallelism・β /05. Mirror of grief.mp3
+107:touhou/Parallelism・β /06. What's wrong with you.mp3
+108:touhou/Parallelism・β /07. 澄草子.mp3
+109:touhou/Parallelism・β /08. Invisible Intimidation.mp3
+110:touhou/Parallelism・β /09. Jealousy of Silence.mp3
+111:touhou/Super Smash Euro Beat Vol.2/01 - Our Generation.mp3
+112:touhou/Super Smash Euro Beat Vol.2/02 - snow hands.mp3
+113:touhou/Super Smash Euro Beat Vol.2/03 - Under The Blue Sky.mp3
+114:touhou/Super Smash Euro Beat Vol.2/04 - I love you,CLUSTER.mp3
+115:touhou/Super Smash Euro Beat Vol.2/05 - STAR LIGHT.mp3
+116:touhou/Super Smash Euro Beat Vol.2/06 - JUST BEAT.mp3
+117:touhou/Super Smash Euro Beat Vol.2/07 - 凛花天想.mp3
+118:touhou/Super Smash Euro Beat Vol.2/08 - Feel it Real.mp3
+119:touhou/Super Smash Euro Beat Vol.2/09 - SPECIAL MEGAMIX by DJ もっちー.mp3
+120:touhou/Voltageignition/01. BlackY — Empty Skydiving.mp3
+121:touhou/Voltageignition/02. 源屋 — Uplift (affected edit).mp3
+122:touhou/Voltageignition/03. Junk — Star Gear.mp3
+123:touhou/Voltageignition/04. Yu_Asahina — ▽=△ (double triangle).mp3
+124:touhou/Voltageignition/05. void — Exodus.mp3
+125:touhou/Voltageignition/06. kamome sano — sparkle.mp3
+126:touhou/Voltageignition/07. かめりあ — unforeseeable (liquid-arithmetic) overflow (Self-Effected).mp3
+127:touhou/Voltageignition/08. PHQUASE — stabilizer (effected by PHQUASE).mp3
+128:touhou/Voltageignition/09. Daisuke Ohnuma vs D.F.K.Soundsystem — Mad Futurist.mp3
+129:touhou/Voltageignition/10. t+pazolite — GLITCH MANIAXXXX.mp3
+130:touhou/Voltageignition/11. C-SHOW — WorkaHolic.mp3
+131:touhou/Winter System/01. Tri Again ～ Slow Kiss In Your SKY ～.mp3
+132:touhou/Winter System/02. Omit Colors.mp3
+133:touhou/Winter System/03. 二人過ごしていた　この季節の中で・・・.mp3
+134:touhou/Winter System/04. Double SystemTired.mp3
+135:touhou/Winter System/05. Tired.mp3
+136:touhou/Zytokine - Double Key/01. 隣人 feat. aki — Double Key.mp3
+137:touhou/Zytokine - Double Key/02. cold kiss — 2 keys.mp3
+138:touhou/Zytokine - Double Key/03. 隣人 feat. 坂上なち — n0stalgia.mp3
+139:touhou/Zytokine - Double Key/04. 隣人 feat. itori — the LAST MOMENT.mp3
+140:touhou/Zytokine - Double Key/05. cold kiss — Missing Opus - t+pazolite Remix.mp3
+141:touhou/Zytokine - Double Key/06. 隣人 — lockbox.mp3
+142:touhou/Zytokine - Double Key/07. 隣人 feat. SYO — disharmonized love.mp3
+143:touhou/Zytokine - Double Key/08. 隣人 feat. aki — MAGIC.mp3
+144:touhou/Zytokine - Double Key/09. 隣人 feat. SYO — Dreaming Again -T.V. Million Glittering Stars Remix.mp3
+145:touhou/Zytokine - Double Key/10. 隣人 feat. itori — complicated.mp3
+146:touhou/Zytokine - Double Key/11. cold kiss — ラグランジュポイント.mp3
+147:touhou/Zytokine - Double Key/12. 隣人 feat. aki — kiminiaete.mp3
+148:touhou/Zytokine - Double Key/01. SILVER feat.aki CYTOKINE Remix.mp3
+149:touhou/Zytokine - Double Key/EXTRA/01. 隣人 feat. aki — SILVER - CYTOKINE Remix.mp3
+150:touhou/[Audio-4U] (C83) Alstroemeria Records — DOMINATED DANCEHALL [ARCD0039] (flac+scans)/01. MASAYOSHI MINOSHIMA — LAUNCH.flac
+151:touhou/[Audio-4U] (C83) Alstroemeria Records — DOMINATED DANCEHALL [ARCD0039] (flac+scans)/02. 坂上なち — EXTRA LOVE.flac
+152:touhou/[Audio-4U] (C83) Alstroemeria Records — DOMINATED DANCEHALL [ARCD0039] (flac+scans)/03. 綾倉盟 — NIGHTFALL.flac
+153:touhou/[Audio-4U] (C83) Alstroemeria Records — DOMINATED DANCEHALL [ARCD0039] (flac+scans)/04. MASAYOSHI MINOSHIMA — RAVE LAUNCHER MK.II.flac
+154:touhou/[Audio-4U] (C83) Alstroemeria Records — DOMINATED DANCEHALL [ARCD0039] (flac+scans)/05. Nhato — DEAD SPACE.flac
+155:touhou/[Audio-4U] (C83) Alstroemeria Records — DOMINATED DANCEHALL [ARCD0039] (flac+scans)/06. Camellia feat.綾倉盟 — WI[RE-ED] PUZZLE.flac
+156:touhou/[Audio-4U] (C83) Alstroemeria Records — DOMINATED DANCEHALL [ARCD0039] (flac+scans)/07. 3L — CINDERELLA CAGE (ALR MORE REWIND MIX).flac
+157:touhou/[Audio-4U] (C83) Alstroemeria Records — DOMINATED DANCEHALL [ARCD0039] (flac+scans)/08. MICAN＊ — NIGHT BIRD.flac
+158:touhou/[Audio-4U] (C83) Alstroemeria Records — DOMINATED DANCEHALL [ARCD0039] (flac+scans)/09. AYAME — ORIENTAL MAGICIAN.flac
+159:touhou/[Audio-4U] (C83) Alstroemeria Records — DOMINATED DANCEHALL [ARCD0039] (flac+scans)/10. MASAYOSHI MINOSHIMA — FIX.flac
+160:touhou/[Audio-4U] (C83) FELT — Ground Snow [FELT-009] (flac+scans)/01. NAGI☆ — Snowy field.flac
+161:touhou/[Audio-4U] (C83) FELT — Ground Snow [FELT-009] (flac+scans)/02. 舞花 — Roll Ground.flac
+162:touhou/[Audio-4U] (C83) FELT — Ground Snow [FELT-009] (flac+scans)/03. Vivienne — Liminality.flac
+163:touhou/[Audio-4U] (C83) FELT — Ground Snow [FELT-009] (flac+scans)/04. Boyz party — a wonderful moon.flac
+164:touhou/[Audio-4U] (C83) FELT — Ground Snow [FELT-009] (flac+scans)/05. Maurits“禅”Cornelis — Disorder!.flac
+165:touhou/[Audio-4U] (C83) FELT — Ground Snow [FELT-009] (flac+scans)/06. Vivienne — Dream in the Night.flac
+166:touhou/[Audio-4U] (C83) FELT — Ground Snow [FELT-009] (flac+scans)/07. Maurits“禅”Cornelis — Total Strain Theory.flac
+167:touhou/[Audio-4U] (C83) FELT — Ground Snow [FELT-009] (flac+scans)/08. Boyz party — no more cry.flac
+168:touhou/[Audio-4U] (C83) FELT — Ground Snow [FELT-009] (flac+scans)/09. NAGI☆ — inside.flac
+169:touhou/[Audio-4U] (C83) FELT — Ground Snow [FELT-009] (flac+scans)/10. 美歌 — Under Empty.flac
+170:touhou/[Audio-4U] (C83) HARDCORE TANO＊C (DJ Noriken vs P＊Light) — RADIANCE [TCPLUS-0010] (flac+scans)/01. DJ Noriken vs P＊Light — PRELUDE.flac
+171:touhou/[Audio-4U] (C83) HARDCORE TANO＊C (DJ Noriken vs P＊Light) — RADIANCE [TCPLUS-0010] (flac+scans)/02. P＊Light — Move Your Body.flac
+172:touhou/[Audio-4U] (C83) HARDCORE TANO＊C (DJ Noriken vs P＊Light) — RADIANCE [TCPLUS-0010] (flac+scans)/03. P＊Light — Bass_tek 2.flac
+173:touhou/[Audio-4U] (C83) HARDCORE TANO＊C (DJ Noriken vs P＊Light) — RADIANCE [TCPLUS-0010] (flac+scans)/04. DJ Noriken — Light of the heavens.flac
+174:touhou/[Audio-4U] (C83) HARDCORE TANO＊C (DJ Noriken vs P＊Light) — RADIANCE [TCPLUS-0010] (flac+scans)/05. P＊Light — DEADLINER.flac
+175:touhou/[Audio-4U] (C83) HARDCORE TANO＊C (DJ Noriken vs P＊Light) — RADIANCE [TCPLUS-0010] (flac+scans)/06. DJ Noriken — Bassline Disco.flac
+176:touhou/[Audio-4U] (C83) HARDCORE TANO＊C (DJ Noriken vs P＊Light) — RADIANCE [TCPLUS-0010] (flac+scans)/07. DJ Noriken — Sakura Tr!ck.flac
+177:touhou/[Audio-4U] (C83) HARDCORE TANO＊C (DJ Noriken vs P＊Light) — RADIANCE [TCPLUS-0010] (flac+scans)/08. P＊Light — The Ray of Sunlight (2013 Update VIP).flac
+178:touhou/[Audio-4U] (C83) HARDCORE TANO＊C (DJ Noriken vs P＊Light) — RADIANCE [TCPLUS-0010] (flac+scans)/09. DJ Noriken — Conclude 2013.flac
+179:touhou/[Audio-4U] (C83) HARDCORE TANO＊C (DJ Noriken vs P＊Light) — RADIANCE [TCPLUS-0010] (flac+scans)/10. P＊Light feat. mow＊2 — Keep on Groovin'.flac
+180:touhou/[Audio-4U] (C83) HARDCORE TANO＊C (DJ Noriken vs P＊Light) — RADIANCE [TCPLUS-0010] (flac+scans)/11. DJ Noriken feat. yukacco — Longing Back.flac
+181:touhou/[Audio-4U] (C83) HARDCORE TANO＊C (DJ Noriken vs P＊Light) — RADIANCE [TCPLUS-0010] (flac+scans)/12. P＊Light — smiley＊smiley (DJ Noriken Remix).flac
+182:touhou/[Audio-4U] (C83) HARDCORE TANO＊C (DJ Noriken vs P＊Light) — RADIANCE [TCPLUS-0010] (flac+scans)/13. DJ Noriken — Hooveristic Trooper (P＊Light Remix).flac
+183:touhou/[Audio-4U] (C83) HARDCORE TANO＊C (DJ Noriken vs P＊Light) — RADIANCE [TCPLUS-0010] (flac+scans)/14. DJ Noriken vs P＊Light — RADIANCE.flac
+184:touhou/[Audio-4U] (C83) SWING HOLIC — SWING HOLIC VOL.10 (東方) [SWHC-0010] (flac+scans)/01. Swing Holic Band — GAME START.flac
+185:touhou/[Audio-4U] (C83) SWING HOLIC — SWING HOLIC VOL.10 (東方) [SWHC-0010] (flac+scans)/02. A～YA — 妖精かくれんぼ.flac
+186:touhou/[Audio-4U] (C83) SWING HOLIC — SWING HOLIC VOL.10 (東方) [SWHC-0010] (flac+scans)/03. ナトリーメグ — sweet as marmalade.flac
+187:touhou/[Audio-4U] (C83) SWING HOLIC — SWING HOLIC VOL.10 (東方) [SWHC-0010] (flac+scans)/04. SYO — Mystic Mysty Lake.flac
+188:touhou/[Audio-4U] (C83) SWING HOLIC — SWING HOLIC VOL.10 (東方) [SWHC-0010] (flac+scans)/05. Swing Holic Band — FAIRY TAIL.flac
+189:touhou/[Audio-4U] (C83) SWING HOLIC — SWING HOLIC VOL.10 (東方) [SWHC-0010] (flac+scans)/06. 709sec. — デタラメ UPSIDE DOWN.flac
+190:touhou/[Audio-4U] (C83) SWING HOLIC — SWING HOLIC VOL.10 (東方) [SWHC-0010] (flac+scans)/07. Yuka — Glitterati.flac
+191:touhou/[Audio-4U] (C83) SWING HOLIC — SWING HOLIC VOL.10 (東方) [SWHC-0010] (flac+scans)/08. きゃろ — 雪月桜花.flac
+192:touhou/[Audio-4U] (C83) SWING HOLIC — SWING HOLIC VOL.10 (東方) [SWHC-0010] (flac+scans)/09. A～YA — Five-star Tricksters.flac
+193:touhou/[Audio-4U] (C83) SWING HOLIC — SWING HOLIC VOL.10 (東方) [SWHC-0010] (flac+scans)/10. SYO — メイガスレイン.flac
+194:touhou/[Audio-4U] (C83) SWING HOLIC — SWING HOLIC VOL.10 (東方) [SWHC-0010] (flac+scans)/11. Swing Holic Band — 二つの世界.flac
+195:touhou/[Audio-4U] (C83) SWING HOLIC — SWING HOLIC VOL.10 (東方) [SWHC-0010] (flac+scans)/12. A～YA — MONKEY GIRL.flac
+196:touhou/[C83] Diverse System--AD EDM MP3 v0/01 Micro Spider.mp3
+197:touhou/[C83] Diverse System--AD EDM MP3 v0/02 SnipeHead.mp3
+198:touhou/[C83] Diverse System--AD EDM MP3 v0/03 YOU feat.Da-little.mp3
+199:touhou/[C83] Diverse System--AD EDM MP3 v0/04 Lyuda.mp3
+200:touhou/[C83] Diverse System--AD EDM MP3 v0/05 Army.mp3
+201:touhou/[C83] Diverse System--AD EDM MP3 v0/06 Lotus.mp3
+202:touhou/[C83] Diverse System--AD EDM MP3 v0/07 Perfect Match.mp3
+203:touhou/[C83] Diverse System--AD EDM MP3 v0/08 Attack The Fxxk Attack.mp3
+204:touhou/[C83] Diverse System--AD EDM MP3 v0/09 Always 2 Be.mp3
+205:touhou/[C83] Diverse System--AD EDM MP3 v0/10 Rave Launcher Mk.III.mp3
+206:touhou/[C83] Diverse System--AD EDM MP3 v0/11 What the Funk.mp3
+207:touhou/[C83] Diverse System--AD EDM MP3 v0/12 10COUNT.mp3
+208:touhou/[C83] Diverse System--AD EDM MP3 v0/13 Kicking Cow.mp3
+209:touhou/[C83] [同人音楽] [HARDCORE TANO＊C] SPEEDBALL GT (320k+scans)/01. teranoid - Ramses.mp3
+210:touhou/[C83] [同人音楽] [HARDCORE TANO＊C] SPEEDBALL GT (320k+scans)/02. REDALiCE vs DJ TECHNORCH - Return to Mars.mp3
+211:touhou/[C83] [同人音楽] [HARDCORE TANO＊C] SPEEDBALL GT (320k+scans)/03. Noizenecio Ft. MC Dahl Headland - Overload.mp3
+212:touhou/[C83] [同人音楽] [HARDCORE TANO＊C] SPEEDBALL GT (320k+scans)/04. 源屋 - Witching hour.mp3
+213:touhou/[C83] [同人音楽] [HARDCORE TANO＊C] SPEEDBALL GT (320k+scans)/05. aran - Overflow.mp3
+214:touhou/[C83] [同人音楽] [HARDCORE TANO＊C] SPEEDBALL GT (320k+scans)/06. Massive New Krew - Contradiction.mp3
+215:touhou/[C83] [同人音楽] [HARDCORE TANO＊C] SPEEDBALL GT (320k+scans)/07. Kobaryo - Carrionoid Amile.mp3
+216:touhou/[C83] [同人音楽] [HARDCORE TANO＊C] SPEEDBALL GT (320k+scans)/08. kenta-v.ez. feat. core mc - LoudEr LoudEr.mp3
+217:touhou/[C83] [同人音楽] [HARDCORE TANO＊C] SPEEDBALL GT (320k+scans)/09. DJ Myosuke - Nightmare Empire.mp3
+218:touhou/[C83] [同人音楽] [HARDCORE TANO＊C] SPEEDBALL GT (320k+scans)/10. DJ Genki - Sidragasum.mp3
+219:touhou/[C83] [同人音楽] [HARDCORE TANO＊C] SPEEDBALL GT (320k+scans)/11. Dustboxxxx - Dropping zone.mp3
+220:touhou/[C83] [同人音楽] [HARDCORE TANO＊C] SPEEDBALL GT (320k+scans)/12. USAO - Awesome My New Kick!.mp3
+221:touhou/[C83] [同人音楽] [HARDCORE TANO＊C] SPEEDBALL GT (320k+scans)/13. Hommarju - Alive.mp3
+222:touhou/[C83] [同人音楽] [HARDCORE TANO＊C] SPEEDBALL GT (320k+scans)/14. RoughSketch - This is ParaPara.mp3
+223:touhou/[C83] [同人音楽] [HARDCORE TANO＊C] SPEEDBALL GT (320k+scans)/15. t+pazolite - Call me it. (500 Tortures).mp3
+224:touhou/[CROWSCLAW] Four Resolutions (flac)/01. Revival.flac
+225:touhou/[CROWSCLAW] Four Resolutions (flac)/02. Never Despair.flac
+226:touhou/[CROWSCLAW] Four Resolutions (flac)/03. Catastrophe.flac
+227:touhou/[CROWSCLAW] Four Resolutions (flac)/04. Riddle.flac
+228:touhou/[SOUND HOLIC] Moon Crusher (320k)/01. Missing Power.mp3
+229:touhou/[SOUND HOLIC] Moon Crusher (320k)/02. Demystify BEAST.mp3
+230:touhou/[SOUND HOLIC] Moon Crusher (320k)/03. Purple + Indigo.mp3
+231:touhou/[SOUND HOLIC] Moon Crusher (320k)/04. ONIGA-SHIMA.mp3
+232:touhou/[SOUND HOLIC] Moon Crusher (320k)/05. DAYDREAM.mp3
+233:touhou/[SOUND HOLIC] Moon Crusher (320k)/06. Unknown X.mp3
+234:touhou/[SOUND HOLIC] Moon Crusher (320k)/07. 真･バーニングテンソクＺ.mp3
+235:touhou/[SOUND HOLIC] Moon Crusher (320k)/08. Scarlet Heaven.mp3
+236:touhou/[SOUND HOLIC] Moon Crusher (320k)/09. 永遠の刹那.mp3
+237:touhou/[SOUND HOLIC] Moon Crusher (320k)/10. ElecTrick Dance.mp3
+238:touhou/[SOUND HOLIC] Moon Crusher (320k)/11. DRASTIC ANGEL.mp3
+239:touhou/[魂音泉] Sky is the Limit (320k)/01. WORLD YOUTH.mp3
+240:touhou/[魂音泉] Sky is the Limit (320k)/02. 稲田姫様に叱られるから feat. ill.bell (Over the 'SKY' Remix).mp3
+241:touhou/[魂音泉] Sky is the Limit (320k)/03. COZMIC DRIVE feat. 妖狐.mp3
+242:touhou/[魂音泉] Sky is the Limit (320k)/04. The Situation Is Fluid feat. Romonosov、Ginryu.mp3
+243:touhou/[魂音泉] Sky is the Limit (320k)/05. 天狗の落とし文 feat. ｙｔｒ.mp3
+244:touhou/[魂音泉] Sky is the Limit (320k)/06. 空色恋歌.mp3
+245:touhou/[魂音泉] Sky is the Limit (320k)/07. Sky is the Limit.mp3
+246:touhou/[魂音泉] Sky is the Limit (320k)/08. 厄神様の帰り道 feat. Romonosov (ANAMADOI Step Remix).mp3
+247:touhou/[魂音泉] Sky is the Limit (320k)/09. 穢き世の美しき檻 feat. ｙｔｒ (off vocal).mp3
+248:touhou/[魂音泉] Sky is the Limit (320k)/10. 星の器 feat. らっぷびと (off vocal).mp3
+249:touhou/[魂音泉] TOS015 - 魂音泉別館 -壱零- [Comiket 83] MP3v0/01 届かず消えず、また夜が明ける.mp3
+250:touhou/[魂音泉] TOS015 - 魂音泉別館 -壱零- [Comiket 83] MP3v0/02 One's Own Way ~Ver.Renko~.mp3
+251:touhou/[魂音泉] TOS015 - 魂音泉別館 -壱零- [Comiket 83] MP3v0/03 オハリハジマリ ~少女綺想曲~Dream Battle~  feat. OBORODUKI.mp3
+252:touhou/[魂音泉] TOS015 - 魂音泉別館 -壱零- [Comiket 83] MP3v0/04 ヒトノユメ feat. MAXBET.mp3
+253:touhou/[魂音泉] TOS015 - 魂音泉別館 -壱零- [Comiket 83] MP3v0/05 愛き夜道 feat. ランコ、らっぷびと.mp3
+254:touhou/with god/01 with GOD.mp3
+255:touhou/with god/02 wondrous stories.mp3
+256:touhou/with god/03 Sunset Luv (DNB Version).mp3
+257:touhou/with god/04 Deity.mp3
+258:touhou/with god/05 Entropy of love.mp3
+259:touhou/with god/06 Break Through (DNB Version).mp3
+260:touhou/with god/07 Feelings of the helix.mp3
+261:touhou/with god/08 Afterglow.mp3
+262:touhou/with god/09 with GOD (inst mix).mp3
+263:touhou/with god/10 wondrous stories (inst mix).mp3
+song_begin: http://www.r-a-d.io/loadbalancer/load-balance.php
+Title: Gyrozetter OP
+Name: R/a/dio
+mtime: 0
+song_end
+265:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/01 - Teddy.mp3
+266:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/02 - The seamy side.mp3
+267:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/03 - Jiken.mp3
+268:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/04 - N.E.E.T..mp3
+269:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/05 - Apathy syndrome.mp3
+270:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/06 - Engei Bu.mp3
+271:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/07 - HANAMARU.mp3
+272:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/08 - Realize.mp3
+273:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/09 - 99 NEETs.mp3
+274:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/10 - Tender color.mp3
+275:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/11 - Yokan.mp3
+276:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/12 - Omoide wa Itsudatte Yasahii Kara.mp3
+277:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/13 - Dearest pain.mp3
+278:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/14 - Shinjitsu to Yasashii Uso.mp3
+279:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/16 - 2fun 30byou de Wakaru Tanoshii NEET life.mp3
+280:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/17 - Tsugi no Kane wa Higashi ni Arite.mp3
+281:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/18 - Antenna.mp3
+282:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/19 - Kan wa Ooku wo Katarazu.mp3
+283:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/20 - Ayaka.mp3
+284:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/21 - Bad tri.mp3
+285:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/22 - Okujou ni Saita Hana.mp3
+286:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/23 - Hazard.mp3
+287:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/24 - Hope in despair.mp3
+288:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/25 - Shinjitsu to Jijitsu no Hazama.mp3
+289:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/26 - Sad drops.mp3
+290:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/27 - It's the only NEET thing to do.mp3
+291:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/28 - Wishful fiction.mp3
+292:Anime Songs/Kami-sama no Memo-chou Original Soundtrack/29 - I hope so....mp3
+293:Anime Songs/Robotics;Notes/OP/01 - Junjou Spectra.mp3
+294:Anime Songs/Jormungand/Jormungand PERFECT ORDER ED Single - Laterality/01 - Laterality.mp3
+295:Anime Songs/Jormungand/Jormungand PERFECT ORDER ED Single - Laterality/02 - Shinjitsu no Hane.mp3
+296:Anime Songs/Jormungand/Jormungand PERFECT ORDER ED Single - Laterality/03 - link.mp3
+297:Anime Songs/Jormungand/Jormungand PERFECT ORDER OP Single - UNDER SHAFT/01 - UNDER SHAFT.mp3
+298:Anime Songs/Jormungand/Jormungand PERFECT ORDER OP Single - UNDER SHAFT/02 - Crimson roses.mp3
+299:Anime Songs/Jormungand/OST/04 - cul-de-sac.mp3
+300:Anime Songs/Jormungand/OST/05 - Hard drive music.mp3
+playlist_end
