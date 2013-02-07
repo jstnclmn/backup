@@ -1,0 +1,14 @@
+#!/bin/zsh
+
+cmd=$1
+shift
+
+pkill compton
+if [ -z "$*" ]; then
+    $cmd
+else
+    $cmd $@
+fi
+wait $!
+cmptn
+

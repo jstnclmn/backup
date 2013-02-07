@@ -1,0 +1,2 @@
+#/bin/zsh
+GTK2_RC_FILES=~/.themes/Zukitwo-Wine/gtk-2.0/gtkrc /usr/bin/anki -b ~/.anki

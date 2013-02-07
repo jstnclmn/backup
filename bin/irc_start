@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if ! tmux has-session -t irc; then
+tmux new-session -d -s irc irssi
+fi
+
+urxvt -e tmux a -t irc

@@ -1,0 +1,45 @@
+#! /bin/bash
+
+## Covers notify ##
+## by lazy for all ##
+
+## Needs mpc/mpd/ncmpcpp, feh, wmctrl and dzen2
+
+## It also helps if feh is not your default image viewer
+## Specifically designed for dwm but the ideas are there
+## Place this script on .ncmpcpp with execute_on_song_change=""
+## TIP: dwm users set feh to floating in you config.
+## TIP: other wms, make feh float and unfocused by the window manager in your respective hinting configurations.
+## A simple album art notifier for mpd/ncmpcpp that relies on bash tools, imagemagick and conky ##
+
+## Purpose: to display album art ! on song change
+#
+## USAGE ###
+# On your ~/.ncmpcpp/config add the line:
+# execute_on_song_change = "path/to/artzen/"
+#
+# That's it!
+
+
+## Set your musicdb
+
+MDB="/home/orthos/Music/"
+
+#MUSIC DIR
+
+MDIR="`mpc -f %file% | head -1 | sed 's:[^/]*$::'`"
+
+#Search for common album art filenames (folder. , back., front.,)
+
+COVRET=$( ls ~/Music/"$MDIR" | egrep "\.jpg|\.png|\.gif" | egrep -w 'front|back|folder|cover' | egrep -w 'front|back|folder' | egrep -w 'front|back' | egrep -w 'front'  )
+
+
+#copy
+#cp "$MDB$MDIR$COVRET" /tmp/artzen/tcov
+
+timeout -sHUP 5s feh -q -x -g 128x128+1200+600 "$MDB$MDIR$COVRET" 2> /dev/null &
+eval $(xdotool getmouselocation --shell)
+xdotool mousemove $X $Y click --repeat 2 1
+
+
+exit

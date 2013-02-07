@@ -1,0 +1,88 @@
+#! /bin/bash
+
+# A bastardization of two scripts:
+# artzen by lazy
+# default mpdnotify configuration file
+
+## Set your musicdb
+
+MDB="/home/orthos/Music/"
+
+#MUSIC DIR
+
+MDIR="`mpc -f %file% | head -1 | sed 's:[^/]*$::'`"
+
+#Search for common album art extensions
+
+COVRET=$( ls ~/Music/"$MDIR" | egrep "\.jpg|\.png|\.gif" )
+
+# Constants
+if [ "$MPD_HOST" ]; then HOST="$MPD_HOST"; else HOST="localhost"; fi
+if [ "$MPD_PORT" ]; then PORT="$MPD_PORT"; else PORT="6600"; fi
+MPD_TCP="/dev/tcp/$HOST/$PORT"
+tmpCover="/tmp/cover"
+noCover="/home/orthos/.icons/audio-x-generic.svg"
+mpdPID=$(pidof mpd)
+mpdArtist="Could not find Artist's name"
+mpdTitle="Could not find Song's title"
+mpdAlbum="Could not find Album's name"
+mpcLength="Could not find Song's length"
+mpcInfo="Cound not find Song's info"
+expireTime="4000"
+#logout="true"
+
+
+function mpd_sndcommmand() {
+	# $1 command
+	exec 5<> $MPD_TCP 2>/dev/null
+	[[ $? -gt 0 ]] && return 1
+	echo $1 >&5
+	echo "close" >&5
+	tmp=$(cat <&5)
+	exec 5>&-
+	_ret=$(head -n -1 <<< "$tmp" | tail -n +2)
+	return 0
+}
+
+function mpd_getinfo() {
+	mpd_sndcommmand currentsong
+	[[ $? -gt 0 ]] && return 1
+	_tmp=$_ret
+	mpdTitle=$(grep "^Title: " <<< "$_tmp" 2>/dev/null | sed "s/Title: //")
+	mpdArtist=$(grep "^Artist: " <<< "$_tmp" 2>/dev/null | sed "s/Artist: //")
+	mpdAlbum=$(grep "^Album: " <<< "$_tmp" 2>/dev/null | sed "s/Album: //")
+	_songtime=$(grep "^Time: " <<< "$_tmp" 2>/dev/null | sed "s/Time: //" | cut -f 1 -d :)
+	(( _mm=$_songtime / 60 ))
+	[[ ${#_mm} -eq 1 ]] && _mm="0$_mm"
+	(( _ss=$_songtime - $_mm * 60 ))
+	[[ ${#_ss} -eq 1 ]] && _ss="0$_ss"
+	mpdLength="$_mm:$_ss"
+	mpd_sndcommmand "status"
+	_tmp=$_ret
+	mpdSongID=$(grep "^songid: " <<< "$_tmp" 2>/dev/null | sed "s/songid: //")
+	mpdPlaylistL=$(grep "^playlistlength: " <<< "$_tmp" 2>/dev/null | sed "s/playlistlength: //")
+}
+
+
+if [[ -z $mpdPID ]]; then
+	echo "MPD is not currently running!"
+	if [[ -f "$myPID" ]]; then
+		rm "$myPID"
+	fi
+		exit
+	else
+
+    mpd_getinfo
+    if [ -f "/tmp/cover" ]; then rm -f /tmp/cover; fi
+    if [ -f "$MDB$MDIR$COVRET" ]; then
+	    cp "$MDB$MDIR$COVRET" /tmp/cover
+    else
+	    cp "$noCover" /tmp/cover
+    fi
+
+    notify-send --expire-time="${expireTime}" -i "${tmpCover}" "$(echo "${mpdTitle}"; echo " "; echo "By: ${mpdArtist}"; echo "From: ${mpdAlbum}")"
+
+    if [ "$logout" == "true" ]; then
+   	    echo -e "$mpdTitle \n $mpdArtist \n $mpdAlbum \n" > $HOME/mpdout
+    fi
+fi

@@ -1,0 +1,4 @@
+#! /bin/bash
+
+[ -f ~/Downloads/torrents/active/rtorrent.lock ] && rm -rf ~/Downloads/torrents/active/rtorrent.lock
+/usr/bin/rtorrent

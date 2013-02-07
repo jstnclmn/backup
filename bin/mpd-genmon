@@ -1,0 +1,6 @@
+#!/bin/bash
+#echo "<img>/usr/share/icons/Faenza/apps/16/gnome-settings-sound.png</img>"
+str=`mpdstatus.py`
+echo "<txt>♪${str}  </txt>"
+echo "<tool>`mpc`</tool>"
+exit 0

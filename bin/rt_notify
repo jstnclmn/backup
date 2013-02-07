@@ -1,0 +1,2 @@
+#!/bin/zsh
+notify-send --icon=/usr/share/icons/Faenza/mimetypes/48/application-x-bittorrent.png "Rtorrent: $1 has finished downloading!"
