@@ -80,7 +80,7 @@ if [[ -z $mpdPID ]]; then
 	    cp "$noCover" /tmp/cover
     fi
 
-    notify-send --expire-time="${expireTime}" -i "${tmpCover}" "$(echo "${mpdTitle}"; echo " "; echo "By: ${mpdArtist}"; echo "From: ${mpdAlbum}")"
+    osd-notify --expire-time="${expireTime}" -i "${tmpCover}" "$(echo "${mpdTitle}"; echo " "; echo "By: ${mpdArtist}"; echo "From: ${mpdAlbum}")"
 
     if [ "$logout" == "true" ]; then
    	    echo -e "$mpdTitle \n $mpdArtist \n $mpdAlbum \n" > $HOME/mpdout
