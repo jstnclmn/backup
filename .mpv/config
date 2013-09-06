@@ -5,7 +5,7 @@ framedrop=yes
 monitoraspect=16:9
 quiet=yes
 autosub-match=fuzzy
-lavdopts=fast:skiploopfilter=default:skipframe=default
+#lavdopts=fast:skiploopfilter=default:skipframe=default
 geometry=50%:50%
 #xy=.75
 screenshot-format=png
